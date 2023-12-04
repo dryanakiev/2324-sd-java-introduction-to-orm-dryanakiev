@@ -1,10 +1,10 @@
 public class Account {
-    int id;
-    String name;
-    String username;
-    String password;
-    String email;
-    String phoneNumber;
+    private int id;
+    private String name;
+    private String username;
+    private String password;
+    private String email;
+    private String phoneNumber;
 
     public Account() {
         id = 0;

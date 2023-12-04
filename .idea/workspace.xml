@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29d3bb68-0fb1-403f-8a42-e387a1cdd084" name="Changes" comment="Refactor project structure">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/2324-sd-java-introduction-to-orm-dryanakiev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2324-sd-java-introduction-to-orm-dryanakiev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/SQLconnection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/source/SqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/source/SqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/models/models.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/models/source/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToDatabase/models/source/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/out/production/software-development-java-template/SqlConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/utilities/source/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/utilities/utilities.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Z4HtC6TnSKT6jB2w1F2MbJC2aa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "TSQL"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29d3bb68-0fb1-403f-8a42-e387a1cdd084" name="Changes" comment="" />
+      <created>1701674648729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701674648729</updated>
+      <workItem from="1701674652973" duration="316000" />
+      <workItem from="1701675170900" duration="5808000" />
+    </task>
+    <task id="LOCAL-00001" summary="Refactor project structure">
+      <created>1701674701913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701674701913</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor project structure">
+      <created>1701674785159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701674785159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Refactor project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure" />
+  </component>
+</project>
