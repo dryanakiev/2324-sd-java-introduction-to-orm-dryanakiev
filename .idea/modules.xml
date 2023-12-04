@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/software-development-java-template.iml" filepath="$PROJECT_DIR$/software-development-java-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/2324-sd-java-introduction-to-orm-dryanakiev.iml" filepath="$PROJECT_DIR$/.idea/2324-sd-java-introduction-to-orm-dryanakiev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectToDatabase/SQLconnection/SQLconnection.iml" filepath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/SQLconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectToDatabase/drivers/drivers.iml" filepath="$PROJECT_DIR$/ConnectToDatabase/drivers/drivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectToDatabase/models/models.iml" filepath="$PROJECT_DIR$/ConnectToDatabase/models/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectToDatabase/utilities/utilities.iml" filepath="$PROJECT_DIR$/ConnectToDatabase/utilities/utilities.iml" />
     </modules>
   </component>
 </project>
