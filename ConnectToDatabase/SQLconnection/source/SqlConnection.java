@@ -47,12 +47,11 @@ public class SqlConnection {
         return account;
     }
 
-    // Read all accounts from table method
+    // Read all accounts from database method
     public List<Account> getAccounts() {
         List<Account> accounts = new ArrayList<>();
-        Account account;
 
-        String query = "SELECT * FROM Accounts";
+        String query = "SELECT * FROM [Accounts]";
 
         Connection connectionInstance;
         Statement statement;
@@ -74,7 +73,8 @@ public class SqlConnection {
         return accounts;
     }
 
-    // Read single user from table by id method
+
+    // Read single user from database by id method
     public Account getAccountById(int id) {
         Account account;
 
@@ -101,6 +101,7 @@ public class SqlConnection {
     // Create single user and store in database method
 
     public void addAccount(Account account) {
+
         String query = "INSERT INTO Accounts VALUES (" +
                 "${account.getId()}," +
                 "${account.getName()}," +
@@ -112,14 +113,35 @@ public class SqlConnection {
 
         Connection connectionInstance;
         Statement statement;
-        ResultSet set;
 
         try {
             connectionInstance = SqlConnection.getInstance();
             statement = connectionInstance.createStatement();
-            set = statement.executeQuery(query);
+            statement.executeUpdate(query);
 
-            account = mapToAccount(set);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void updateAccount(Account account) {
+
+        String query = "UPDATE Accounts SET" +
+                "[Name] = ${account.getName()}," +
+                "[Username] = ${account.getUsername()}," +
+                "[Password] = ${account.getPassword()}," +
+                "[Email] = ${account.getEmail()}," +
+                "[PhoneNumber] = ${account.getPhoneNumber()} " +
+                "WHERE [Id] = ${account.getId()}";
+
+
+        Connection connectionInstance;
+        Statement statement;
+
+        try {
+            connectionInstance = SqlConnection.getInstance();
+            statement = connectionInstance.createStatement();
+            statement.executeUpdate(query);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

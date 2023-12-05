@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d3bb68-0fb1-403f-8a42-e387a1cdd084" name="Changes" comment="Refactor project structure">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2324-sd-java-introduction-to-orm-dryanakiev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2324-sd-java-introduction-to-orm-dryanakiev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/SQLconnection.iml" beforeDir="false" />
+    <list default="true" id="29d3bb68-0fb1-403f-8a42-e387a1cdd084" name="Changes" comment="Add mapping and read methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/source/SqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToDatabase/SQLconnection/source/SqlConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/models/models.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ConnectToDatabase/models/source/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToDatabase/models/source/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/out/production/software-development-java-template/SqlConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/utilities/source/DBConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToDatabase/utilities/utilities.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +28,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "TSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;TSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1701674648729</updated>
       <workItem from="1701674652973" duration="316000" />
-      <workItem from="1701675170900" duration="5808000" />
+      <workItem from="1701675170900" duration="5857000" />
+      <workItem from="1701775076661" duration="4862000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure">
       <created>1701674701913</created>
@@ -83,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701674785159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add mapping and read methods">
+      <created>1701681069051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701681069051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Refactor project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure" />
+    <MESSAGE value="Add mapping and read methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mapping and read methods" />
   </component>
 </project>
