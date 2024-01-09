@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="enu">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ConnectToDatabase/drivers/sqljdbc_11.2/enu/mssql-jdbc-11.2.3.jre18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConnectToDatabase/drivers/sqljdbc_11.2/enu/mssql-jdbc-11.2.3.jre11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConnectToDatabase/drivers/sqljdbc_11.2/enu/mssql-jdbc-11.2.3.jre17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConnectToDatabase/drivers/sqljdbc_11.2/enu/mssql-jdbc-11.2.3.jre8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
